@@ -20,7 +20,7 @@ const Contact = () => {
               >
                 <Button
                   variant="outline-danger"
-                  title="adiba.abid_@hotmail.com"
+                  title="rajragul45@gmail.com"
                 >
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
