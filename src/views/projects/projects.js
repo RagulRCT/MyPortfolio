@@ -246,7 +246,7 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="hhttps://reliance-rma.vercel.app/"
+                  href="https://reliance-rma.vercel.app/"
                   target="_blank"
                 >
                   SEE LIVE
