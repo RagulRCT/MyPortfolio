@@ -387,7 +387,7 @@ const ProjectTimeline = () => {
                           <li>Attractive UI, Easy to use.</li>
                           <li>
                             Uses jspdf-react to capture the data from the modal
-                            and convert it from canvas -> pdf
+                            and convert it from canvas - pdf
                           </li>
                         </ul>
                         <hr />
