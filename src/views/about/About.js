@@ -26,20 +26,32 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded tex align-text-left ">
-                <br />
-                Web Developer with expertise of React.js, HTML and CSS.
-                currently learning Node Js for Backend Developement.
-                <br />
-                <br />I am passionate programmer and a learner, born and brought
-                up in Chennai,India. I have Good Knowledge in C, C++, Java,
-                Python. <br />
-                <br />
-                Along with that, I also help my Friends as a COACH on their
-                journey of becoming a professional programmer.
-                <br />I love learning about new technologies, what problems are
-                they solving and How can I use them to build better and scalable
-                products.
-                <br /> <br />
+             
+                <br/>
+                👋 Hello there! I'm a seasoned full stack developer with 2 years of experience,
+                based in Chennai, India, with a strong passion for crafting
+                innovative web solutions. My expertise lies in leveraging
+                cutting-edge technologies like React.js, Next.js, HTML, SCSS,
+                JavaScript, Node.js, Express.js, and CMS platforms like AEM to
+                build robust and scalable applications. 
+                <br/>
+                <br/>
+                💼 With hands-on
+                experience in both frontend and backend development, I thrive in
+                the dynamic world of web development, constantly seeking
+                opportunities to push boundaries and create impactful solutions.
+                From concept to deployment, I'm dedicated to delivering
+                top-notch experiences that exceed expectations. 
+                
+                <br/>
+                <br/>
+                🌱 As a lifelong
+                learner, I'm always exploring new technologies and methodologies
+                to stay ahead of the curve. I believe in the power of continuous
+                learning and enjoy unraveling the complexities of emerging
+                technologies to solve real-world problems.
+                <br/>
+                <br/>
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
