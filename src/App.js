@@ -54,14 +54,7 @@ function App() {
           </Container>
         </div>
 
-        <div>
-          <Container className="container-box rounded">
-            <Slide left duration={2000}>
-              <hr />
-              <Blog />
-            </Slide>
-          </Container>
-        </div>
+  
       </div>
 
       <div>
@@ -72,7 +65,6 @@ function App() {
           </Fade>
         </Container>
       </div>
-      <hr />
       <Footer />
     </div>
   );
