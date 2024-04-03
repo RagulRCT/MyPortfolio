@@ -15,7 +15,7 @@ import Image from "react-bootstrap/Image";
 import "./project.css";
 
 //Projects
-import ecomm from "../../assets/ecomm.png";
+import ecomm from "../../assets/ecommerce.png";
 import inv from "../../assets/inv.png";
 import PST from "../../assets/PST.png";
 
