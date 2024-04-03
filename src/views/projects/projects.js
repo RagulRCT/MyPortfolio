@@ -321,7 +321,7 @@ const ProjectTimeline = () => {
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex  justify-content-between flex-nowrap text-center">
+              <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
                   href="https://my-invoice-generator.vercel.app/"
                   target="_blank"
