@@ -15,7 +15,7 @@ import Image from "react-bootstrap/Image";
 import "./project.css";
 
 //Projects
-import ecomm from "../../assets/ecomm.PNG";
+import ecomm from "../../assets/ecomm.png";
 import inv from "../../assets/inv.png";
 import PST from "../../assets/PST.png";
 
@@ -147,9 +147,104 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
 
+          {/* Mobile Ecommerce */}
+          <ImageEvent
+            className="text-center"
+            text="Mobile Ecommerce"
+            src={ecomm}
+            alt="ecomm"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is an E-Commerce
+                        website of Mobile Store, which provides user online
+                        shopping experience with Product detail pages and add to
+                        cart functionality
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Provide best quality of Mobiles.</li>
+                          <li>Powered by Pure JavaScript, React Js and CSS</li>
+                          <li>Responsive Design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
+                                alt="JavaScript"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JavaScript
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Js
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://ecommerse-delta.vercel.app/"
+                  target="_blank"
+                >
+                  LAUNCH
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Invoice Generator */}
           <ImageEvent
-            date="July, 2022"
             className="text-center"
             text="Invoice Generator"
             src={inv}
@@ -229,104 +324,6 @@ const ProjectTimeline = () => {
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
                   href="https://my-invoice-generator.vercel.app/"
-                  target="_blank"
-                >
-                  LAUNCH
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Mobile Ecommerce */}
-          <ImageEvent
-            date="February, 2022"
-            className="text-center"
-            text="Mobile Ecommerce"
-            src={ecomm}
-            alt="ecomm"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This is an E-Commerce
-                        website of Mobile Store, which provides user online
-                        Mobile shopping experience with various varieties.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>
-                            Provide best quality of Mobiles in low price rate.
-                          </li>
-                          <li>Powered by Pure JavaScript, React Js and CSS</li>
-                          <li>Responsive Design</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_JAVASCRIPT}
-                                alt="JavaScript"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              JavaScript
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React Js
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://ecommerse-delta.vercel.app/"
                   target="_blank"
                 >
                   LAUNCH
