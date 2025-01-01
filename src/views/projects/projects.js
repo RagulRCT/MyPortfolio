@@ -15,9 +15,11 @@ import Image from "react-bootstrap/Image";
 import "./project.css";
 
 //Projects
-import ecomm from "../../assets/ecommerce.png";
 import inv from "../../assets/inv.png";
 import PST from "../../assets/PST.png";
+import DG from "../../assets/DG.png";
+import eastman from "../../assets/eastman.png";
+import dell from "../../assets/dell.png";
 
 //Skills
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
@@ -49,7 +51,6 @@ const ProjectTimeline = () => {
         <Events>
           {/* PST */}
           <ImageEvent
-            date="March, 2024"
             className="text-center"
             text="Parametric Search Table"
             src={PST}
@@ -72,6 +73,40 @@ const ProjectTimeline = () => {
                         <strong>Description:</strong> This is an Application
                         that allows engineers to select and compare parts based
                         on user input specifications.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>
+                            <b>Workflow Optimization:</b> Led the development of
+                            a React application that improved workflow
+                            efficiency by 35%.
+                          </li>
+                          <li>
+                            <b>Revenue Growth:</b> Delivered solutions that
+                            boosted quarterly revenue by 14% through enhanced
+                            application functionality.
+                          </li>
+                          <li>
+                            <b>Team Leadership:</b> Led a team of 12 members
+                            across India and Portugal, fostering seamless
+                            collaboration and ensuring timely project delivery.
+                          </li>
+                          <li>
+                            <b>Scalable Development:</b> Designed and
+                            implemented scalable React components for long-term
+                            maintainability and performance.
+                          </li>
+                          <li>
+                            <b>CMS Migration:</b> Successfully migrated 65,000+
+                            pages in a CMS migration project, reducing workload
+                            by 50% for content teams.
+                          </li>
+                          <li>
+                            <b>Impactful Results:</b> Delivered measurable
+                            improvements in operational efficiency and client
+                            satisfaction.
+                          </li>
+                        </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
@@ -150,9 +185,9 @@ const ProjectTimeline = () => {
           {/* Mobile Ecommerce */}
           <ImageEvent
             className="text-center"
-            text="Mobile Ecommerce"
-            src={ecomm}
-            alt="ecomm"
+            text="Dollar General Retail Ecommerce"
+            src={DG}
+            alt="Dollar General Retail Ecommerce"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -168,16 +203,51 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is an E-Commerce
-                        website of Mobile Store, which provides user online
-                        shopping experience with Product detail pages and add to
-                        cart functionality
+                        <strong>Description:</strong> At Dollar General, I
+                        served as the lead developer, driving key initiatives to
+                        optimize performance and enhance the digital experience.
+                        I spearheaded this project which reduced server load by{" "}
+                        <b>70%</b>
+                        and improved page load times by <b>40%</b>. focused on
+                        implementing scalable solutions, fostering collaboration
+                        within a team of 8, and delivering measurable results.
+                        This work showcased my expertise in{" "}
+                        <b>React.js, Next.js, Adobe AEM</b>, and performance
+                        optimization.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Provide best quality of Mobiles.</li>
-                          <li>Powered by Pure JavaScript, React Js and CSS</li>
-                          <li>Responsive Design</li>
+                          <li>
+                            <b>Performance Optimization:</b> Reduced server load
+                            by 70% and improved page load times by 40% through
+                            efficient coding practices and infrastructure
+                            improvements.
+                          </li>
+                          <li>
+                            <b>Team Leadership:</b> Led an 8-member
+                            cross-functional team, ensuring seamless
+                            collaboration and timely project delivery.
+                          </li>
+                          <li>
+                            <b>Scalable Solutions:</b> Designed and implemented
+                            scalable architecture for enhanced website
+                            functionality and maintainability.
+                          </li>
+                          <li>
+                            <b>CMS Optimization:</b> Leveraged Adobe AEM to
+                            streamline content management processes, cutting
+                            delivery time by 20%.
+                          </li>
+                          <li>
+                            <b>User Experience Enhancements:</b> Improved
+                            website usability, increasing user satisfaction by
+                            75%.
+                          </li>
+                          <li>
+                            <b>Impactful Results:</b> Delivered solutions that
+                            directly contributed to operational efficiency and a
+                            better user experience.
+                          </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -234,11 +304,200 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://ecommerse-delta.vercel.app/"
+                  href="https://www.dollargeneral.com/"
                   target="_blank"
                 >
                   LAUNCH
                 </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Eastman Chemicals */}
+          <ImageEvent
+            className="text-center"
+            text="Eastman CMS Application"
+            src={eastman}
+            alt="eastman corp"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> At Eastman, I played a key
+                        role in enhancing their digital ecosystem by
+                        implementing scalable and personalized content
+                        solutions. Leveraging Adobe AEM, I optimized content
+                        workflows and reduced turnaround times, improving
+                        operational efficiency. I collaborated with
+                        cross-functional teams to deliver a seamless user
+                        experience, driving a 30% increase in user engagement.
+                        My work focused on scalability, performance, and
+                        measurable results that elevated customer satisfaction.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>
+                            <b>Content Personalization:</b> Developed
+                            personalized content delivery features, enhancing
+                            user engagement by 30%.
+                          </li>
+                          <li>
+                            <b>Efficient Team Management:</b> Coordinated with a
+                            cross-functional team to ensure smooth
+                            implementation of new digital solutions.
+                          </li>
+                          <li>
+                            <b>Adobe AEM Expertise:</b> Utilized Adobe AEM to
+                            optimize content workflows, reducing turnaround time
+                            by 25%.
+                          </li>
+                          <li>
+                            <b>Scalable Architecture:</b> Designed scalable
+                            solutions to support Eastman’s growing digital
+                            ecosystem.
+                          </li>
+                          <li>
+                            <b>User Experience:</b> Enhanced UI/UX to deliver a
+                            seamless and intuitive user experience across
+                            platforms.
+                          </li>
+                          <li>
+                            <b>Measurable Results:</b> Delivered impactful
+                            improvements that boosted customer satisfaction and
+                            operational efficiency.
+                          </li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Js
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://www.eastman.com/en" target="_blank">
+                  LAUNCH
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Dell Supplier */}
+          <ImageEvent
+            className="text-center"
+            text="DELL GCM and Supplier Portal"
+            src={dell}
+            alt="Dell"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> At Dell, I worked on the
+                        Global Commodity Management (GCM) system and Supplier
+                        Portal, streamlining supply chain and procurement
+                        operations. My contributions involved enhancing the
+                        portal's functionality to improve supplier collaboration
+                        and efficiency. I optimized performance, ensured
+                        scalability, and implemented reliable solutions to
+                        support Dell's supply management processes. This work
+                        enabled better decision-making and operational
+                        effectiveness across the supply chain.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>
+                            <b>Supply Chain Optimization:</b> Improved supply
+                            chain workflows and procurement operations by
+                            enhancing the GCM system and Supplier Portal.
+                          </li>
+                          <li>
+                            <b>Supplier Collaboration:</b> Developed features to
+                            streamline communication and collaboration with
+                            suppliers, improving efficiency.
+                          </li>
+                          <li>
+                            <b>Scalable Architecture:</b> Designed scalable
+                            solutions to support growing supplier management
+                            needs and future integrations.
+                          </li>
+                          <li>
+                            <b>Performance Improvements:</b> Optimized portal
+                            performance, ensuring fast and reliable operations
+                            for global users.
+                          </li>
+                          <li>
+                            <b>Data Integration:</b> Integrated data analytics
+                            to provide insights for better supply chain
+                            decision-making.
+                          </li>
+                          <li>
+                            <b>User Experience:</b> Enhanced the UI/UX of the
+                            Supplier Portal for seamless navigation and improved
+                            usability.
+                          </li>
+                        </ul>
+                        <hr />
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
               </div>
             </div>
           </ImageEvent>
@@ -265,7 +524,7 @@ const ProjectTimeline = () => {
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong> Invoice Generator For
-                        Official Companies.
+                        enterprises.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
