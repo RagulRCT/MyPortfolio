@@ -182,7 +182,7 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* Mobile Ecommerce */}
+          {/* DG Ecommerce */}
           <ImageEvent
             className="text-center"
             text="Dollar General Retail Ecommerce"
@@ -313,6 +313,80 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
 
+          {/* Dell Supplier */}
+          <ImageEvent
+            className="text-center"
+            text="DELL GCM and Supplier Portal"
+            src={dell}
+            alt="Dell"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> At Dell, I worked on the
+                        Global Commodity Management (GCM) system and Supplier
+                        Portal, streamlining supply chain and procurement
+                        operations. My contributions involved enhancing the
+                        portal's functionality to improve supplier collaboration
+                        and efficiency. I optimized performance, ensured
+                        scalability, and implemented reliable solutions to
+                        support Dell's supply management processes. This work
+                        enabled better decision-making and operational
+                        effectiveness across the supply chain.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>
+                            <b>Supply Chain Optimization:</b> Improved supply
+                            chain workflows and procurement operations by
+                            enhancing the GCM system and Supplier Portal.
+                          </li>
+                          <li>
+                            <b>Supplier Collaboration:</b> Developed features to
+                            streamline communication and collaboration with
+                            suppliers, improving efficiency.
+                          </li>
+                          <li>
+                            <b>Scalable Architecture:</b> Designed scalable
+                            solutions to support growing supplier management
+                            needs and future integrations.
+                          </li>
+                          <li>
+                            <b>Performance Improvements:</b> Optimized portal
+                            performance, ensuring fast and reliable operations
+                            for global users.
+                          </li>
+                          <li>
+                            <b>Data Integration:</b> Integrated data analytics
+                            to provide insights for better supply chain
+                            decision-making.
+                          </li>
+                          <li>
+                            <b>User Experience:</b> Enhanced the UI/UX of the
+                            Supplier Portal for seamless navigation and improved
+                            usability.
+                          </li>
+                        </ul>
+                        <hr />
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Eastman Chemicals */}
           <ImageEvent
             className="text-center"
@@ -424,80 +498,6 @@ const ProjectTimeline = () => {
                 <UrlButton href="https://www.eastman.com/en" target="_blank">
                   LAUNCH
                 </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Dell Supplier */}
-          <ImageEvent
-            className="text-center"
-            text="DELL GCM and Supplier Portal"
-            src={dell}
-            alt="Dell"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> At Dell, I worked on the
-                        Global Commodity Management (GCM) system and Supplier
-                        Portal, streamlining supply chain and procurement
-                        operations. My contributions involved enhancing the
-                        portal's functionality to improve supplier collaboration
-                        and efficiency. I optimized performance, ensured
-                        scalability, and implemented reliable solutions to
-                        support Dell's supply management processes. This work
-                        enabled better decision-making and operational
-                        effectiveness across the supply chain.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>
-                            <b>Supply Chain Optimization:</b> Improved supply
-                            chain workflows and procurement operations by
-                            enhancing the GCM system and Supplier Portal.
-                          </li>
-                          <li>
-                            <b>Supplier Collaboration:</b> Developed features to
-                            streamline communication and collaboration with
-                            suppliers, improving efficiency.
-                          </li>
-                          <li>
-                            <b>Scalable Architecture:</b> Designed scalable
-                            solutions to support growing supplier management
-                            needs and future integrations.
-                          </li>
-                          <li>
-                            <b>Performance Improvements:</b> Optimized portal
-                            performance, ensuring fast and reliable operations
-                            for global users.
-                          </li>
-                          <li>
-                            <b>Data Integration:</b> Integrated data analytics
-                            to provide insights for better supply chain
-                            decision-making.
-                          </li>
-                          <li>
-                            <b>User Experience:</b> Enhanced the UI/UX of the
-                            Supplier Portal for seamless navigation and improved
-                            usability.
-                          </li>
-                        </ul>
-                        <hr />
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
               </div>
             </div>
           </ImageEvent>
