@@ -52,7 +52,7 @@ const ProjectTimeline = () => {
           {/* PST */}
           <ImageEvent
             className="text-center"
-            text="Parametric Search Table"
+            text="Analog Devices - Parametric Search Table"
             src={PST}
             alt="Parametric Search Table"
           >
