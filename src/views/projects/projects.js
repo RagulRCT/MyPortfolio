@@ -73,7 +73,7 @@ const ProjectTimeline = () => {
                       <Card.Body>
                         <strong>Description:</strong> I developed a dynamic AI
                         Chatbot powered by the <b>Groq API</b> using{" "}
-                        <b>Llama3-8B model</b>
+                        <b>Llama3-8B model</b>{" "}
                         for intelligent and context-aware interactions. The
                         project integrates advanced authentication features,
                         including <b>Auth0</b> for secure login with SAML and
