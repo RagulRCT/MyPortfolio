@@ -20,6 +20,7 @@ import PST from "../../assets/PST.png";
 import DG from "../../assets/DG.png";
 import eastman from "../../assets/eastman.png";
 import dell from "../../assets/dell.png";
+import AI from "../../assets/AI-chat.png";
 
 //Skills
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
@@ -49,6 +50,111 @@ const ProjectTimeline = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline theme={customTheme}>
         <Events>
+          {/* AI Chat-Bot */}
+          <ImageEvent
+            className="text-center"
+            text="AI Chat-Bot using Groq"
+            src={AI}
+            alt="Ai-ChatBot"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> I developed a dynamic AI
+                        Chatbot powered by the <b>Groq API</b> using{" "}
+                        <b>Llama3-8B model</b>
+                        for intelligent and context-aware interactions. The
+                        project integrates advanced authentication features,
+                        including <b>Auth0</b> for secure login with SAML and
+                        social login support, ensuring enterprise-grade security
+                        and user accessibility. User data and chat history are
+                        managed using <b>Prisma ORM with PostgreSQL</b> for
+                        efficient storage and retrieval. Built with Next.js, the
+                        project provides a scalable backend and an interactive
+                        frontend for a seamless and engaging user experience.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>
+                            <b>Advanced AI Model:</b> Utilized the Llama3-8B
+                            model for dynamic, context-aware conversational
+                            capabilities.
+                          </li>
+                          <li>
+                            <b>Authentication:</b> Integrated Auth0 with SAML
+                            for enterprise-grade security and social login for
+                            broader accessibility.
+                          </li>
+                          <li>
+                            <b>Single Sign-On (SSO):</b> Enabled SSO through
+                            SAML, simplifying access for enterprise users.
+                          </li>
+                          <li>
+                            <b>Data Management:</b> Implemented Prisma ORM with
+                            PostgreSQL for efficient storage and retrieval of
+                            user information and chat history.
+                          </li>
+                          <li>
+                            <b>Full-Stack Development:</b> Built the chatbot
+                            using Next.js for both frontend and backend,
+                            ensuring seamless integration and scalability.
+                          </li>
+                          <li>
+                            <b>User Experience:</b> Designed an intuitive and
+                            interactive UI for enhanced user engagement and ease
+                            of use.
+                          </li>
+                          <li>
+                            <b>Scalability:</b> Ensured a scalable architecture
+                            to support a growing user base and high concurrency.
+                          </li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">Next Js</span>
+                          </li>
+                          <li>
+                            <span className="p-2">PostgreSQL</span>
+                          </li>
+                          <li>
+                            <span className="p-2">Auth0</span>
+                          </li>
+                          <li>
+                            <span className="p-2">CSS3</span>
+                          </li>
+                          <li>
+                            <span className="p-2">Groq - Llama3-8B model</span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://ragul-chatbot-groq.vercel.app/"
+                  target="_blank"
+                >
+                  LAUNCH
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* PST */}
           <ImageEvent
             className="text-center"
