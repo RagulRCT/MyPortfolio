@@ -40,10 +40,16 @@ const TitleMessage = () => (
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Fullstack Developer", "Tech Enthusiast", "Frontend Expert"],
+              strings: [
+                "Software Engineer",
+                "Frontend Developer",
+                "Web Developer",
+                "Android Developer",
+                "Full Stack Developer",
+              ],
               autoStart: true,
               loop: true,
-              delay: 50
+              delay: 50,
             }}
           />
         </div>
