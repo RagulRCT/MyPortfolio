@@ -288,6 +288,95 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
 
+          {/* Invoice Generator */}
+          <ImageEvent
+            className="text-center"
+            text="Invoice Generator"
+            src={inv}
+            alt="invoice"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Invoice Generator For
+                        enterprises.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>
+                            {" "}
+                            An Invoice creator project built with React.{" "}
+                          </li>
+                          <li>Attractive UI, Easy to use.</li>
+                          <li>
+                            Uses jspdf-react to capture the data from the modal
+                            and convert it from canvas - pdf
+                          </li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Js
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://my-invoice-generator.vercel.app/"
+                  target="_blank"
+                >
+                  LAUNCH
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* DG Ecommerce */}
           <ImageEvent
             className="text-center"
@@ -602,95 +691,6 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton href="https://www.eastman.com/en" target="_blank">
-                  LAUNCH
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Invoice Generator */}
-          <ImageEvent
-            className="text-center"
-            text="Invoice Generator"
-            src={inv}
-            alt="invoice"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> Invoice Generator For
-                        enterprises.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>
-                            {" "}
-                            An Invoice creator project built with React.{" "}
-                          </li>
-                          <li>Attractive UI, Easy to use.</li>
-                          <li>
-                            Uses jspdf-react to capture the data from the modal
-                            and convert it from canvas - pdf
-                          </li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React Js
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://my-invoice-generator.vercel.app/"
-                  target="_blank"
-                >
                   LAUNCH
                 </UrlButton>
               </div>
